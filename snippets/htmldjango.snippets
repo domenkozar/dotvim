@@ -1,0 +1,40 @@
+snippet %
+	{% ${1:tag} %}
+
+snippet %for
+	{% for ${1:title} in ${2:iter} %}
+		${3:loop}
+	{% endfor %}
+
+snippet %if if
+	{% if ${1:title} %}
+		${2:value}
+	{% endif %}
+
+snippet %if if/else
+	{% if ${1:title} %}
+		${2:value1}
+	{% else %}
+		${3:value2}
+	{% endif %}
+
+snippet %if ifequal
+	{% ifequal ${1:first} ${2:second} %}
+		${3:value}
+	{% endifequal %}
+
+snippet %if ifnotequal
+	{% ifnotequal ${1:first} ${2:second} %}
+		${3:value}
+	{% endifnotequal %}
+
+snippet %url
+	{% url ${1:} %}
+
+snippet %block
+	{% block ${1:} %}
+		${2:}
+	{% endblock $1 %}
+
+snippet %extends
+	{% extends "${1:}" %}
