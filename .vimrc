@@ -1,4 +1,8 @@
 " vim: set fenc=utf-8 tw=80 sw=2 sts=2 et foldmethod=marker :
+
+" use pathogen
+call pathogen#infect()
+
 scriptencoding utf-8
 colorscheme twilight
 filetype plugin on
