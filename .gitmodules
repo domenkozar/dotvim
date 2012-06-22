@@ -16,3 +16,9 @@
 [submodule "bundle/detectindent"]
 	path = bundle/detectindent
 	url = https://github.com/ciaranm/detectindent.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/ropevim"]
+	path = bundle/ropevim
+	url = https://github.com/klen/rope-vim.git
