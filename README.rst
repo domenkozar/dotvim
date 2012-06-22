@@ -1,3 +1,5 @@
+Personal configuration of vim editor. Somewhat still messy, but with good intentions. Use under MIT licence.
+
 Install
 =======
 
