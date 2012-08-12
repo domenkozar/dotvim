@@ -10,6 +10,11 @@ filetype indent on
 syntax on
 set number
 
+" visally display tabs
+set lcs=tab:>-
+set list!
+set tabstop=3
+
 " swapfile
 set directory=~/tmp,/tmp,.,/var/tmp " set paths for swapfile
 
@@ -28,7 +33,7 @@ autocmd BufRead,BufNewFile *.zcml :set ft=xml
 autocmd BufRead,BufNewFile *.jinja :set ft=htmljinja
 autocmd BufRead,BufNewFile *.jinja2 :set ft=htmljinja
 "|set expandtab 
-autocmd FileType xhtml,html set tabstop=2|set shiftwidth=2|set noexpandtab
+autocmd FileType xhtml,html set noexpandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab autoindent
 
 " remap omnicompletion
