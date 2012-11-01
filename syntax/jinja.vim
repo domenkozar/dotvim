@@ -20,6 +20,10 @@ elseif exists("b:current_syntax")
   finish
 endif
 
+if !exists("main_syntax")
+  let main_syntax = "html"
+endif
+
 syntax case match
 
 " Jinja template built-in tags and parameters (without filter, macro, is and raw, they

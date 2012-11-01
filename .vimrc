@@ -18,21 +18,13 @@ set tabstop=3
 " swapfile
 set directory=~/tmp,/tmp,.,/var/tmp " set paths for swapfile
 
-" autocompletion options
-" tags for python libs
-"set tags+=~/.vim/tags/python.ctags
-autocmd FileType python,mako set omnifunc=pythoncomplete#Complete
-"autocmd FileType python set omnifunc=pysmell#Complete
-"autocmd FileType html,mako set omnifunc=htmlcomplete#Complete
-"autocmd FileType html,mako set omnifunc=htmlcomplete#CompleteTags
-"
-autocmd FileType mako set filetype=mako.html.js
-autocmd FileType rst set spell
-autocmd BufRead *.less set filetype=less
+autocmd BufRead,BufNewFile *.mako set ft=mako
+autocmd BufRead,BufNewFile *.less set ft=less
 autocmd BufRead,BufNewFile *.zcml :set ft=xml
-autocmd BufRead,BufNewFile *.jinja :set ft=htmljinja
-autocmd BufRead,BufNewFile *.jinja2 :set ft=htmljinja
-"|set expandtab 
+autocmd BufRead,BufNewFile *.jinja :set ft=jinja
+autocmd BufRead,BufNewFile *.jinja2 :set ft=jinja
+autocmd FileType python,mako set omnifunc=pythoncomplete#Complete
+autocmd FileType rst set spell
 autocmd FileType xhtml,html set noexpandtab
 autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab autoindent
 
