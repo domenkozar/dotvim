@@ -23,6 +23,7 @@ autocmd BufRead,BufNewFile *.less set ft=less
 autocmd BufRead,BufNewFile *.zcml :set ft=xml
 autocmd BufRead,BufNewFile *.jinja :set ft=jinja
 autocmd BufRead,BufNewFile *.jinja2 :set ft=jinja
+autocmd BufRead,BufNewFile *.aug :set ft=augeas
 autocmd FileType python,mako set omnifunc=pythoncomplete#Complete
 autocmd FileType rst set spell
 autocmd FileType xhtml,html set noexpandtab
