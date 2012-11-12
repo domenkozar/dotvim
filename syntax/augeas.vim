@@ -49,7 +49,7 @@ if !exists("augeas_no_functions")
 endif
 
 syn region  augeasRegexp	start="/"  end="[^\\]/"
-syn region  augeasString	start=+"+  end=+"\([ \t)\.-]\|$\)+
+syn region  augeasString	start=+"+  end=+"+ skip=+\\"+
 
 
 " Define the default highlighting.
