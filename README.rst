@@ -10,6 +10,10 @@ Install
 	$ ln -s ~/.vim/vimrc ~/.vimrc
 	$ ln -s ~/.vim/gvimrc ~/.gvimrc
 
+Optional::
+
+	$ sudo pip install flake8
+
 
 Plugins
 =======
@@ -25,3 +29,4 @@ TODO
 - don't save python on syntaxerror
 - add FuzzyFinder
 - see what's useful in https://github.com/scrooloose/vimfiles/
+- syntastic can only use one checker at once, see https://github.com/scrooloose/syntastic/pull/346
