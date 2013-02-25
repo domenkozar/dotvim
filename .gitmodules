@@ -40,3 +40,6 @@
 [submodule "bundle/scvim"]
 	path = bundle/scvim
 	url = https://github.com/sbl/scvim.git
+[submodule "bundle/gitgutter"]
+	path = bundle/gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
