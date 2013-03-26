@@ -43,3 +43,6 @@
 [submodule "bundle/gitgutter"]
 	path = bundle/gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/reload"]
+	path = bundle/reload
+	url = https://github.com/xolox/vim-reload
