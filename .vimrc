@@ -61,3 +61,6 @@ let g:syntastic_auto_jump=1
 " ropevim
 let g:ropevim_vim_completion=1
 let g:ropevim_extended_complete=1
+
+" statusline
+set laststatus=2
