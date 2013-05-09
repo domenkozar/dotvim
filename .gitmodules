@@ -33,7 +33,7 @@
 	url = https://github.com/garbas/vim-snipmate.git
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
-	url = https://github.com/honza/snipmate-snippets.git
+	url = https://github.com/honza/vim-snippets.git
 [submodule "bundle/sparkup"]
 	path = bundle/sparkup
 	url = https://github.com/kogakure/vim-sparkup.git
