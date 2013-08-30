@@ -36,7 +36,7 @@
 	url = https://github.com/honza/vim-snippets.git
 [submodule "bundle/sparkup"]
 	path = bundle/sparkup
-	url = https://github.com/kogakure/vim-sparkup.git
+	url = https://github.com/tristen/vim-sparkup.git
 [submodule "bundle/scvim"]
 	path = bundle/scvim
 	url = https://github.com/sbl/scvim.git
