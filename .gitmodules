@@ -61,3 +61,6 @@
 [submodule "bundle/robotframework-vim"]
 	path = bundle/robotframework-vim
 	url = https://github.com/mfukar/robotframework-vim.git
+[submodule "bundle/vim-isort"]
+	path = bundle/vim-isort
+	url = https://github.com/fisadev/vim-isort.git
